@@ -1,6 +1,35 @@
 # Changelog
 
 --------------------------------------------
+[1.4.0] - 2024-04-09
+
+* Fixed bug for RTCConfiguration convert.
+
+[1.3.3] - 2024-04-09
+
+* Fix DC data parse.
+
+[1.3.2] - 2024-04-09
+
+* Fix error when constructing RTCDataChannelInit.
+
+[1.3.1] - 2024-04-08
+
+* Add keyRingSize/discardFrameWhenCryptorNotReady to KeyProviderOptions.
+
+[1.3.0] - 2024-04-08
+
+* update to package:web by @jezell in #29.
+
+[1.2.1] - 2024-02-05
+
+* Downgrade some dependencies make more compatible.
+
+[1.2.0] - 2024-02-05
+
+* Make E2EE events to be consistent with native.
+* E2EE imporve, and fix issue on Firefox.
+
 [1.1.2] - 2023-09-14
 
 * Add more frame cryptor api.
